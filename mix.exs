@@ -4,7 +4,7 @@ defmodule MixMinimumElixirVersion.MixProject do
   def project do
     [
       app: :mix_minimum_elixir_version,
-      version: "0.1.1",
+      version: "0.1.2",
       elixir: "~> 1.13",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -13,7 +13,7 @@ defmodule MixMinimumElixirVersion.MixProject do
     ]
   end
 
-  def application, do: []
+  def application, do: [applications: [:req]]
 
   defp deps do
     [
