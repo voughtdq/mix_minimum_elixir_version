@@ -13,7 +13,7 @@ defmodule MixMinimumElixirVersion.MixProject do
     ]
   end
 
-  def application, do: [applications: [:req]]
+  def application, do: [extra_applications: [:req]]
 
   defp deps do
     [
