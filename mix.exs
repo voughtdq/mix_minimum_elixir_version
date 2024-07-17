@@ -9,7 +9,8 @@ defmodule MixMinimumElixirVersion.MixProject do
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       description: description(),
-      package: package()
+      package: package(),
+      escript: escript()
     ]
   end
 
