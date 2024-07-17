@@ -25,6 +25,11 @@ defmodule Mix.Tasks.MinimumElixirVersion do
   end
 
   @doc false
+  def main(args) do
+    run(args)
+  end
+  
+  @doc false
   @spec run_and_report(nil | String.t(), versions, requirement_map) :: :ok
   def run_and_report(
         project_version,
