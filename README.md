@@ -22,7 +22,6 @@ If nothing went wrong, you should see something like
 
     This project targets `~> 1.16`, but the minimum version it can target is `~> 1.13`.
 
-
 <!-- MDOC !-->
 
 ## Installation
@@ -34,7 +33,9 @@ This package can be installed by adding `mix_minimum_elixir_version` to your lis
 ```elixir
 def deps do
   [
-    {:mix_minimum_elixir_version, "~> 0.1.0"}
+    {:mix_minimum_elixir_version, "~> 0.1.5"}
   ]
 end
 ```
+
+Unfortunately, it can't be installed as an archive for some reason. 
